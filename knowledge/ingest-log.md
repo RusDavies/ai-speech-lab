@@ -23,3 +23,6 @@
 - Ran the Chatterbox Turbo install, smoke test, and local CPU benchmark for
   `SO-SPIKE-001-T05`; recorded curated evidence in
   `benchmarks/r1_chatterbox_turbo.md`.
+- Ran the F5-TTS v1 Base install, smoke test, and local CPU benchmark for
+  `SO-SPIKE-001-T06`; recorded curated evidence in
+  `benchmarks/r1_f5tts_v1_base.md`.

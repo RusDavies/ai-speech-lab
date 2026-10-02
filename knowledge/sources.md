@@ -57,3 +57,5 @@ Local benchmark environment source:
 
 - Chatterbox Turbo local CPU run, 2026-10-02:
   `benchmarks/r1_chatterbox_turbo.md`.
+- F5-TTS v1 Base local CPU run, 2026-10-02:
+  `benchmarks/r1_f5tts_v1_base.md`.
