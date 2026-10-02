@@ -52,3 +52,8 @@ Local benchmark environment source:
 - NVIDIA Container Toolkit installation documentation, including Podman/CDI
   support:
   <https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html>
+
+## Benchmark Run Sources
+
+- Chatterbox Turbo local CPU run, 2026-10-02:
+  `benchmarks/r1_chatterbox_turbo.md`.

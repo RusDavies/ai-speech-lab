@@ -32,6 +32,8 @@ Primary target:
   measurement rules for the R1 comparison spike.
 - `../docs/R1_CLOUD_GPU_PROFILE.md`: first planned cloud NVIDIA GPU profile for
   R1 candidate comparisons.
+- `../benchmarks/r1_chatterbox_turbo.md`: Chatterbox Turbo install, smoke test,
+  and local CPU benchmark evidence.
 - `../docs/ROADMAP.md`: public-safe product roadmap.
 
 ## Current Open Questions
