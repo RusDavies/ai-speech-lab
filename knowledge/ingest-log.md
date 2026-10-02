@@ -17,3 +17,9 @@
   `docs/R1_CLOUD_GPU_PROFILE.md`.
 - Added public-release readiness docs: Apache-2.0 license, contribution,
   security, conduct, issue guidance, public README, and public roadmap.
+
+## 2026-10-02
+
+- Ran the Chatterbox Turbo install, smoke test, and local CPU benchmark for
+  `SO-SPIKE-001-T05`; recorded curated evidence in
+  `benchmarks/r1_chatterbox_turbo.md`.
