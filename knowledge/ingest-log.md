@@ -26,3 +26,6 @@
 - Ran the F5-TTS v1 Base install, smoke test, and local CPU benchmark for
   `SO-SPIKE-001-T06`; recorded curated evidence in
   `benchmarks/r1_f5tts_v1_base.md`.
+- Ran the Kokoro 82M install, smoke test, and local CPU benchmark for
+  `SO-SPIKE-001-T07`; recorded curated evidence in
+  `benchmarks/r1_kokoro_82m.md`.
