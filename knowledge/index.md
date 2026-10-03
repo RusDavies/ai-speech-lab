@@ -36,6 +36,8 @@ Primary target:
   and local CPU benchmark evidence.
 - `../benchmarks/r1_f5tts_v1_base.md`: F5-TTS v1 Base install, smoke test, and
   local CPU benchmark evidence.
+- `../benchmarks/r1_kokoro_82m.md`: Kokoro 82M install, smoke test, and local
+  CPU benchmark evidence.
 - `../docs/ROADMAP.md`: public-safe product roadmap.
 
 ## Current Open Questions
