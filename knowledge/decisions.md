@@ -11,6 +11,8 @@
   checks pass.
 - Run the remaining R1 technology comparison tasks across the strongest
   candidates.
+- Review Orpheus gated access terms and decide whether to spend a cloud NVIDIA
+  GPU run on it.
 
 ## 2026-10-01: First Prototype Acceptance And Harness Scope
 
@@ -113,6 +115,20 @@ Rationale: Apache-2.0 is permissive enough for open-source adoption while
 including an explicit patent license and termination clause. That is a better
 default for a TTS/runtime project than MIT while the eventual implementation,
 model integration, and contributor surface are still forming.
+
+## 2026-10-07: Orpheus Local R1 Deferral
+
+Decision: record Orpheus 3B 0.1 Finetuned as locally blocked rather than failed.
+Keep it in the R1 comparison only as a gated/CUDA candidate until access terms
+are reviewed and it can be run on the documented NVIDIA L4 profile or equivalent
+CUDA host.
+
+Rationale: `orpheus-speech==0.1.0` installed, but the selected Orpheus model,
+the package's default finetuned model alias, and the tokenizer/pretrained model
+repository all returned gated-access errors from Hugging Face in the local run.
+The current local R1 profile also has no CUDA driver/device, while the upstream
+package imports a SNAC decoder that initializes on CUDA and uses `vllm` for
+inference.
 
 ## 2026-10-01: Public Release Route
 

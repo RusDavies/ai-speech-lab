@@ -38,6 +38,8 @@ Primary target:
   local CPU benchmark evidence.
 - `../benchmarks/r1_kokoro_82m.md`: Kokoro 82M install, smoke test, and local
   CPU benchmark evidence.
+- `../benchmarks/r1_orpheus_3b_0_1_ft.md`: Orpheus install, local preflight
+  blocker evidence, and deferred benchmark recommendation.
 - `../docs/ROADMAP.md`: public-safe product roadmap.
 
 ## Current Open Questions
@@ -48,3 +50,5 @@ Primary target:
 - When should the first R1 candidate be rerun on the cloud NVIDIA L4 profile?
 - When should the product repository be made public after clean-history release
   preparation?
+- When should Orpheus gated access be reviewed and rerun on the cloud NVIDIA L4
+  profile?
