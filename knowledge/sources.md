@@ -61,3 +61,5 @@ Local benchmark environment source:
   `benchmarks/r1_f5tts_v1_base.md`.
 - Kokoro 82M local CPU run, 2026-10-02:
   `benchmarks/r1_kokoro_82m.md`.
+- Orpheus 3B 0.1 Finetuned local preflight run, 2026-10-07:
+  `benchmarks/r1_orpheus_3b_0_1_ft.md`.

@@ -29,3 +29,9 @@
 - Ran the Kokoro 82M install, smoke test, and local CPU benchmark for
   `SO-SPIKE-001-T07`; recorded curated evidence in
   `benchmarks/r1_kokoro_82m.md`.
+
+## 2026-10-07
+
+- Ran the Orpheus install and local preflight benchmark for
+  `SO-SPIKE-001-T08`; recorded gated-access and no-CUDA blocker evidence in
+  `benchmarks/r1_orpheus_3b_0_1_ft.md`.
