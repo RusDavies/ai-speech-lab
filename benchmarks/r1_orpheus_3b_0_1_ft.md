@@ -17,7 +17,8 @@ The local R1 environment also has no CUDA device/driver, while the current
 
 Recommendation: keep Orpheus as a promising but currently blocked expressive
 streaming/voice-cloning candidate. Do not score it against the completed local
-CPU candidates until gated access has been approved and it is rerun on the
+CPU candidates until gated access has been approved, the access review in
+`docs/R1_ORPHEUS_ACCESS_REVIEW.md` has been satisfied, and it is rerun on the
 documented NVIDIA L4 profile or equivalent CUDA host.
 
 ## Candidate
@@ -31,6 +32,7 @@ documented NVIDIA L4 profile or equivalent CUDA host.
 - Model/repository license metadata: `Apache-2.0`.
 - Model gating: gated/conditional access; unauthenticated local access returned
   `GatedRepoError` for Orpheus model/config downloads.
+- Access review: `docs/R1_ORPHEUS_ACCESS_REVIEW.md`.
 - Python package: `orpheus-speech==0.1.0`.
 - Runtime stack installed: `vllm==0.31.0`, `torch==2.13.0`, `snac==1.2.1`.
 - Runtime: Python 3.11 virtual environment under ignored local artifacts.
@@ -133,7 +135,8 @@ and accepted, rather than rejected from local CPU evidence.
 
 ## Follow-Up
 
-- Add a gated-access review/approval task before any further Orpheus run.
+- Complete the gated-access approval record described in
+  `docs/R1_ORPHEUS_ACCESS_REVIEW.md` before any further Orpheus run.
 - Rerun Orpheus on the documented `R1-CLOUD-NVIDIA-L4-2026-10` profile, or an
   equivalent CUDA host, before scoring latency or quality.
 - Recheck the upstream package before the GPU rerun; the current package import

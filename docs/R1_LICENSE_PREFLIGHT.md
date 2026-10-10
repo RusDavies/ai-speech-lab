@@ -13,9 +13,10 @@ future product base.
   weights are CC-BY-NC-4.0; treat as non-commercial/reference unless a different
   license path is selected.
 - Kokoro 82M: acceptable for R1 benchmarking and plausible fixed-voice baseline.
-- Orpheus 3B 0.1 Finetuned: acceptable for R1 benchmarking after gated-model
-  access review; plausible product candidate only after model terms and
-  acceptable-use constraints are reviewed.
+- Orpheus 3B 0.1 Finetuned: acceptable for bounded R1 benchmarking after
+  explicit gated-model access acceptance is recorded; plausible product
+  candidate only after Orpheus gated terms, Llama 3.2 base-model terms,
+  acceptable-use constraints, dependencies, and output policy are reviewed.
 - OpenVoice V2: acceptable optional component candidate, subject to dependency
   and generated-output checks.
 
@@ -88,13 +89,17 @@ future product base.
 - Gating: `auto` in model metadata.
 - Model-card acceptable-use note: do not use for impersonation without consent,
   misinformation, deception, illegal, or harmful activity.
-- Preflight status: conditional pass for R1 benchmark after access/terms review.
-- Product-base status: plausible only after gated access terms, model-card
-  restrictions, dependencies, and output policy are reviewed.
+- Access review: see `docs/R1_ORPHEUS_ACCESS_REVIEW.md`.
+- Preflight status: conditional pass for R1 benchmark after an authorized
+  maintainer accepts the gated Hugging Face conditions and records the approval.
+- Product-base status: plausible only after gated access terms, Llama 3.2
+  base-model obligations, model-card restrictions, dependencies, and output
+  policy are reviewed.
 - Primary evidence:
   - <https://huggingface.co/api/models/canopylabs/orpheus-3b-0.1-ft>
   - <https://huggingface.co/canopylabs/orpheus-3b-0.1-ft>
   - <https://raw.githubusercontent.com/canopyai/Orpheus-TTS/main/LICENSE>
+  - <https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct>
 
 ### R1-O1: OpenVoice V2
 
@@ -119,11 +124,11 @@ future product base.
 - Store benchmark run metadata separately from generated audio artifacts.
 - Treat F5-TTS output and derived artifacts as non-commercial/research-only
   unless the weight-license issue is resolved.
-- Treat Orpheus as gated/conditional until access terms are explicitly recorded.
+- Treat Orpheus as gated/conditional until access acceptance is explicitly
+  recorded; treat product-base use as separate from R1 benchmark access.
 
 ## Follow-Up
 
 `SO-SPIKE-001-T03` should define the local benchmark environment and hardware
 profile. `SO-SPIKE-001-T04` should add engine-command invocation and result
 capture to the benchmark harness before any candidate benchmark run.
-

@@ -40,6 +40,8 @@ Primary target:
   CPU benchmark evidence.
 - `../benchmarks/r1_orpheus_3b_0_1_ft.md`: Orpheus install, local preflight
   blocker evidence, and deferred benchmark recommendation.
+- `../docs/R1_ORPHEUS_ACCESS_REVIEW.md`: Orpheus gated-access review and R1
+  usage boundaries before a cloud/CUDA rerun.
 - `../docs/ROADMAP.md`: public-safe product roadmap.
 
 ## Current Open Questions
@@ -50,5 +52,5 @@ Primary target:
 - When should the first R1 candidate be rerun on the cloud NVIDIA L4 profile?
 - When should the product repository be made public after clean-history release
   preparation?
-- When should Orpheus gated access be reviewed and rerun on the cloud NVIDIA L4
+- When should Orpheus gated access be accepted and rerun on the cloud NVIDIA L4
   profile?
