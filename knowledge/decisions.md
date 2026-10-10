@@ -11,8 +11,8 @@
   checks pass.
 - Run the remaining R1 technology comparison tasks across the strongest
   candidates.
-- Review Orpheus gated access terms and decide whether to spend a cloud NVIDIA
-  GPU run on it.
+- Record explicit Orpheus and Llama gated-access acceptance before spending a
+  cloud NVIDIA GPU run on Orpheus.
 
 ## 2026-10-01: First Prototype Acceptance And Harness Scope
 
@@ -129,6 +129,21 @@ repository all returned gated-access errors from Hugging Face in the local run.
 The current local R1 profile also has no CUDA driver/device, while the upstream
 package imports a SNAC decoder that initializes on CUDA and uses `vllm` for
 inference.
+
+## 2026-10-09: Orpheus Gated Access Review
+
+Decision: allow Orpheus to proceed to a bounded R1 cloud/CUDA benchmark only
+after an authorized maintainer accepts and records the relevant Hugging Face
+gated access conditions. Do not treat R1 access as product-base approval.
+
+Rationale: the visible Orpheus model page and API report Apache-2.0 metadata,
+but the selected finetuned and pretrained repositories are gated and require
+contact-information sharing before file access. The visible model card also
+prohibits impersonation without consent, deception, misinformation, illegal
+activity, and harmful use. The visible model tree names
+`meta-llama/Llama-3.2-3B-Instruct` as an upstream base, so any product-base
+decision must separately satisfy Llama 3.2 license and acceptable-use
+obligations.
 
 ## 2026-10-01: Public Release Route
 

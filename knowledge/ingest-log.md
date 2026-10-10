@@ -35,3 +35,9 @@
 - Ran the Orpheus install and local preflight benchmark for
   `SO-SPIKE-001-T08`; recorded gated-access and no-CUDA blocker evidence in
   `benchmarks/r1_orpheus_3b_0_1_ft.md`.
+
+## 2026-10-09
+
+- Reviewed current visible Orpheus gated-access, model-card, GitHub, and
+  Llama 3.2 base-model terms for `SO-SPIKE-001-T08A`; recorded the conditional
+  benchmark decision in `docs/R1_ORPHEUS_ACCESS_REVIEW.md`.

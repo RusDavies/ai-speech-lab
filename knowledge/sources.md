@@ -33,7 +33,10 @@ Local benchmark environment source:
 - Orpheus source and model notes: <https://github.com/canopyai/Orpheus-TTS>
 - Orpheus 3B finetuned model card: <https://huggingface.co/canopylabs/orpheus-3b-0.1-ft>
 - Orpheus 3B finetuned model metadata: <https://huggingface.co/api/models/canopylabs/orpheus-3b-0.1-ft>
+- Orpheus 3B pretrained model metadata: <https://huggingface.co/api/models/canopylabs/orpheus-3b-0.1-pretrained>
 - Orpheus code license: <https://raw.githubusercontent.com/canopyai/Orpheus-TTS/main/LICENSE>
+- Llama 3.2 3B Instruct model card and license text:
+  <https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct>
 - OpenVoice source: <https://github.com/myshell-ai/OpenVoice>
 - OpenVoice license: <https://raw.githubusercontent.com/myshell-ai/OpenVoice/main/LICENSE>
 - Piper source archive: <https://github.com/rhasspy/piper>
@@ -63,3 +66,5 @@ Local benchmark environment source:
   `benchmarks/r1_kokoro_82m.md`.
 - Orpheus 3B 0.1 Finetuned local preflight run, 2026-10-07:
   `benchmarks/r1_orpheus_3b_0_1_ft.md`.
+- Orpheus gated-access review, 2026-10-09:
+  `docs/R1_ORPHEUS_ACCESS_REVIEW.md`.
